@@ -16,7 +16,6 @@ public class CollectionAnalysis {
             int item = random.nextInt(100);
             list.add(item);
             sum = sum + item;
-
         }
         System.out.println("List items = " + list);
         System.out.println("Minimum number in the collection = " + Collections.min(list));
